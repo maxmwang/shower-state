@@ -59,3 +59,5 @@ To use ESLint's autofix:
 ```sh
 npm run lint-fix
 ```
+
+Linting can also be done through the [VSCode ESLint Plugin](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint). ESLint is enabled as a formatter in the workspace settings store in `.vscode/settings.json`. To use the formatter, press `Shift + Alt + F` or `Cmd + Shift + P` and type `Format Document`.
